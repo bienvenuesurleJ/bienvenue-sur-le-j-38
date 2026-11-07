@@ -1,0 +1,19 @@
+{
+  "name": "BIENVENUE SUR LE J 38",
+  "short_name": "LE J 38",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#FBFAF8",
+  "theme_color": "#ff4b00",
+  "lang": "fr",
+  "icons": [
+    {
+      "src": "media/phpul9t3mquo.png",
+      "sizes": "192x192 512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
