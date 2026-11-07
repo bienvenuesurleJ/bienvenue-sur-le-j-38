@@ -1,5 +1,5 @@
 /* Service worker des notifications : généré par l’administration du site */
-var ICON='media/phpul9t3mquo.png';
+var ICON='media/e18cfq70ifcq.png';
 self.addEventListener('install',function(){self.skipWaiting()});
 self.addEventListener('activate',function(e){e.waitUntil(self.clients.claim())});
 self.addEventListener('push',function(e){
