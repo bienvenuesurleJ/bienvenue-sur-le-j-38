@@ -7,6 +7,7 @@ self.addEventListener('push',function(e){
   try{d=e.data?e.data.json():{}}catch(x){d={t:'Notification',b:e.data?e.data.text():''}}
   var o={body:d.b||'',data:{u:d.u||''},lang:'fr'};
   if(ICON)o.icon=ICON;
+  if(d.i)o.image=d.i;
   if(d.g){o.tag=d.g;o.renotify=true}
   e.waitUntil(self.registration.showNotification(d.t||'Notification',o).then(function(){
     try{if(self.navigator.setAppBadge)self.navigator.setAppBadge()}catch(x){}
